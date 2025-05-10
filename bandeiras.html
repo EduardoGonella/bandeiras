@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        #bandeiras {
+            border: solid 1px #242323;
+            height: 200px;
+            width: 900px;
+            overflow: none;
+            margin: 0 auto;
+            padding-left: 15px;
+            box-sizing: border-box;
+        }
+
+        .bandeira{
+            border: solid 1px #242323;
+            width: 250px;
+            height: 150px;
+            float:left;
+            margin: 20px;
+            box-sizing: border-box;
+        }
+
+        #holanda .linha1 {
+            background-color: rgb(200, 16, 46);
+            height: 33.333%;                
+        }
+
+        #holanda .linha2 {
+            background-color: rgb(255, 255, 255);
+            height: 33.333%;                
+        }
+
+        #holanda .linha3 {
+            background-color: rgb(0, 61, 165);
+            height: 33.333%;                
+        }
+
+        #alemanha {
+            .linha1 {
+                background-color: rgb(0, 0, 0);
+                height: 33.333%;
+            }
+
+            .linha2 {
+                background-color: rgb(221, 0, 0);
+                height: 33.333%;
+            }
+
+            .linha3 {
+                background-color: rgb(255, 204, 0);
+                height: 33.333%;
+            }
+        }
+
+        #italia{
+            .coluna{
+                width: 33.333%;
+                height: 100%;
+                box-sizing: border-box;
+                float: left;
+            }
+
+            .coluna1 {
+                background-color: rgb(0, 140, 69);
+            }
+
+            .coluna2 {
+                background-color: rgb(244, 249, 255);
+            }
+
+            .coluna3 {
+                background-color: rgb(205, 33, 42);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="bandeiras">
+
+        <div id="holanda" class="bandeira">
+            <div class="linha1"></div>
+            <div class="linha2"></div>
+            <div class="linha3"></div>
+        </div>
+
+        <div id="alemanha" class="bandeira">
+            <div class="linha1"></div>
+            <div class="linha2"></div>
+            <div class="linha3"></div>
+        </div>
+
+        <div id="italia" class="bandeira">
+            <div class="coluna coluna1"></div>
+            <div class="coluna coluna2"></div>
+            <div class="coluna coluna3"></div>
+        </div>
+
+    </div>
+</body>
+</html>
